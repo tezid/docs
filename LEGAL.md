@@ -6,9 +6,7 @@ Surf is not responsible for any loss of funds or personal data in relation to th
 
 Any code or assets can be reused under the conditions outlined in LICENSE.md in respective repos.  
 
-[Terms](https://tezid.net/terms.pdf)  
-[Privacy Policy](https://tezid.net/privacy-policy.pdf)  
-[Data Retention Policy](https://tezid.net/data-retention-policy.pdf)  
+[Terms](https://tezid.net/terms.pdf) | [Privacy Policy](https://tezid.net/privacy-policy.pdf) | [Data Retention Policy](https://tezid.net/data-retention-policy.pdf)  
 
 All rights reserved. 
 
