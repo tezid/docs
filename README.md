@@ -70,4 +70,12 @@ GET a list of the available `prooftypes` in JSON format.
 curl https://tezid.net/api/mainnet/prooftypes
 ```
 
+### GET /config
+
+GET a dapp and api `config` data in JSON format. This includes current cost, contracts, rpc endpoint etc.
+
+```
+curl https://tezid.net/api/mainnet/config
+```
+
 enjoy.
