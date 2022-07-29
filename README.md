@@ -38,8 +38,36 @@ The TezID Oracle is a RESTful HTTP(s) API.
 
 ## Endpoints
 
-### /proofs/:address
+### GET /proofs/:address
 
 GET the proofs for an `:address` in JSON format.
+
+```
+curl https://tezid.net/api/mainnet/proofs/tz1UZZnrre9H7KzAufFVm7ubuJh5cCfjGwam
+```
+
+### GET /profile/:address
+
+GET the profile data for an `:address` in JSON format.
+
+```
+curl https://tezid.net/api/mainnet/profile/tz1UZZnrre9H7KzAufFVm7ubuJh5cCfjGwam
+```
+
+### GET /idz/:address
+
+GET the $IDZ balance (and some xFarm related metrics) for an `:address` in JSON format.
+
+```
+curl https://tezid.net/api/mainnet/idz/tz1UZZnrre9H7KzAufFVm7ubuJh5cCfjGwam
+```
+
+### GET /prooftypes
+
+GET a list of the available `prooftypes` in JSON format.
+
+```
+curl https://tezid.net/api/mainnet/prooftypes
+```
 
 enjoy.
