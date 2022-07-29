@@ -34,10 +34,12 @@ The TezID Oracle API is responsible for verification of proof data. It is here y
 
 We have a goal to open source this component also, but it would require quite a bit of work to get it in a state where this would be secure, so it's not a priority atm.
 
-The TezID Oracle is a Restful HTTP(s) API.
+The TezID Oracle is a RESTful HTTP(s) API.
 
 ## Endpoints
 
-### / 
+### /proofs/:address
+
+GET the proofs for an `:address` in JSON format.
 
 enjoy.
