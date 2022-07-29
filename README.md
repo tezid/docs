@@ -26,8 +26,12 @@ Entrypoints and views for the TezID smart contracts is documented in the [contra
 
 ## The Dapp
 
+The TezID dapp, available at https://tezid.net, is used for interacting with the TezID smart contracts and Oracle API via a web browser. It is written in React. We have a goal to open source this component also, but it has not yet been a priority.
 
 ## The Oracle API
 
+The TezID Oracle API is responsible for verification of proof data. It is here you can request a code for your email (as an example) and get your proof verified.
+
+We have a goal to open source this component also, but it would require quite a bit of work to get it in a state where this would be secure, so it's not a priority atm. 
 
 enjoy.
